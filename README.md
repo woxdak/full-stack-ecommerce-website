@@ -1,11 +1,11 @@
 # Full Stack Ecommerce Website (Angular + Springboot + Bootstrap + MySQL + Okta)
 
 This project was generated with 
-- Angular CLI version 11.0.2.
-- Java Springboot
-- Bootstrap + HTML + CSS
-- MySQL
-- Okta
+- Angular CLI version 11.0.2. - front end 
+- Java Springboot. - back end
+- Bootstrap + HTML + CSS - user interface
+- MySQL - database
+- Okta - third library supports handling request and creating users
 
 ## How to run
 - Clone the file from github 
