@@ -1,0 +1,9 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-pagination {
+    margin: 20px;
+}
