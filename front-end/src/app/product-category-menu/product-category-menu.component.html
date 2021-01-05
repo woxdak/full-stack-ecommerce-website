@@ -1,0 +1,26 @@
+<div class="collection-menu text-center mt-30">
+    <h4 class="collection-tilte">OUR COLLECTION</h4>
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical" 
+        *ngFor="let tempProductCategory of productCategories">
+        <!-- <a class="active" id="v-pills-furniture-tab" data-toggle="pill" href="#v-pills-furniture" role="tab" aria-controls="v-pills-furniture" aria-selected="true"
+          routerLink="/category/1" routerLinkActive="active">Books</a> -->
+        <!-- <a id="v-pills-decorative-tab" data-toggle="pill" href="#v-pills-decorative" role="tab" aria-controls="v-pills-decorative" aria-selected="false"
+          routerLink="/category/2" routerLinkActive="">Coffee Mugs</a>
+        
+        <a id="v-pills-lighting-tab" data-toggle="pill" href="#v-pills-lighting" role="tab" aria-controls="v-pills-lighting" aria-selected="false">Lighting</a>
+        
+        <a id="v-pills-outdoor-tab" data-toggle="pill" href="#v-pills-outdoor" role="tab" aria-controls="v-pills-outdoor" aria-selected="false">Outdoor</a>
+        
+        <a id="v-pills-storage-tab" data-toggle="pill" href="#v-pills-storage" role="tab" aria-controls="v-pills-storage" aria-selected="false">Storage</a> -->
+
+  
+              <!-- <a routerLink="/category/1" routerLinkActive="active">Books</a>
+              <a routerLink="/category/2" routerLinkActive="active">Coffee Mugs</a>
+              <a routerLink="/category/3" routerLinkActive="active">Slugger</a>
+              <a routerLink="/category/4" routerLinkActive="active">Hehe</a> -->
+          
+              <a routerLink="/category/{{ tempProductCategory.id }}" routerLinkActive="active">
+                {{ tempProductCategory.categoryName }}</a>
+                
+    </div> <!-- nav -->
+</div> <!-- collection menu -->
