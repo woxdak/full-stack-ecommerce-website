@@ -1,0 +1,32 @@
+
+
+<section id="product" class="product-area pt-100 pb-130">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4">
+                <app-product-category-menu></app-product-category-menu>
+            </div>
+            <div class="col-lg-9 col-md-8">
+                <div class="detail-section">
+                    <div class="container-fluid">
+                        <img src="{{ product.imageUrl }}" class="detail-image">
+                        <h3>{{product.name }}</h3>
+                        <div class="price">
+                            <span class="regular-price">{{ product.unitPrice  * 0.4| currency:'USD' }}</span>  
+                        </div>
+                        <div class="single-form form-group">
+                            <button 
+                                class="main-btn" 
+                                type="submit"
+                                (click)="addToCart()">Add to Cart</button>
+                        </div>
+                        <hr>
+                        <h4>Description</h4>
+                        <p>{{ product.description }}</p>
+                        <a routerLink="/products" class="mt-5">Back to Product List</a>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </div> 
+  </section>

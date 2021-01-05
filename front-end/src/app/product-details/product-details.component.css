@@ -1,0 +1,13 @@
+.detail-section {
+    margin-top: 60px;
+}
+
+.detail-img {
+    width: 25%;
+}
+
+.price {
+    margin: 15px 0 0;
+    font-weight: 800;
+    color: #0275d8;
+}
